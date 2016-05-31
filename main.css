@@ -1,0 +1,89 @@
+html {
+    background-color: white;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: "Avenir Next", Futura, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    background-color: #e6e9e9;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: darkred;
+}
+
+p {
+    color: darkblue;
+}
+
+h1 {
+    font-family: "Zapfino";
+}
+
+header {
+    border-bottom: 3px solid black;
+}
+
+header h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: "SignPainter";
+}
+
+header h2 {
+    text-align: center;
+}
+
+nav {
+    border-top: 3px solid black;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-left: -10px;
+    color: darkred;
+}
+
+nav ul li#current {
+    color: black;
+    background-color: white;
+}
+
+nav ul li#current:hover {
+    color: white;
+    background-color: black;
+}
+
+nav ul li:hover {
+    background-color: black;
+    color: white;
+}
+
+nav ul li a {
+    color: inherit;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: inherit;
+}
+
+p.samp {
+    text-align: center;
+    color: firebrick;
+}
